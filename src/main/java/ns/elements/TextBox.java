@@ -30,7 +30,7 @@ public class TextBox {
     }
 
 
-    @Test
+    @Test(groups = {"Smoke","3576"},description = "Text Box")
     void testBoxTest1() throws InterruptedException {
         WebElement fullname = driver.findElement(By.id("userName"));
         fullname.sendKeys("Aijan");

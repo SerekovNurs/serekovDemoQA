@@ -10,7 +10,7 @@ public class ButtonsTest extends BaseTest {
         Assert.assertEquals(demoQAPages.getButtonsPage().doubleClickMessage.getText(), "You have done a double click");
     }
 
-    @Test(description = "Verify right click button is working properly")
+    @Test(groups = {"Smoke","3456"},description = "Button Test")
     public void rightClickBtn() {
         browserHelper.open("https://demoqa.com/buttons");
         webElementActions.scrollToElement(demoQAPages.getButtonsPage().doubleClickBtn);

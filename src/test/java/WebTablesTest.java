@@ -11,7 +11,7 @@ public class WebTablesTest extends BaseTest{
     }
 
 
-    @Test
+    @Test(groups = {"E2E","4554"},description = "Web Tables Test")
     public void addNewEmployeeTest() throws InterruptedException {
 // Вызов метода добавления нового сотрудника с прoверкой email
         demoQAPages.getWebTablesPage().addNewEmployee(randomUtils.createMockEmployee());

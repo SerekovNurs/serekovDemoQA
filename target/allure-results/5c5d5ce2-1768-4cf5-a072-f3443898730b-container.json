@@ -1,0 +1,1 @@
+{"uuid":"5c5d5ce2-1768-4cf5-a072-f3443898730b","name":"ns.elements.TextBox.metClose","children":["170b7d8f-3296-4635-aa98-10f0453bf5ae"],"description":"","befores":[],"afters":[{"name":"metClose","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1718740379047,"stop":1718740382438}],"start":1718740379047,"stop":1718740382438}

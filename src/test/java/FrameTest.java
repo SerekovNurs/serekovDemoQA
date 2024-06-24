@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class FrameTest extends BaseTest{
 
-    @Test(description = "Verify that driver can switch to another frame")
+    @Test(groups = {"Smoke","8765"},description = "Frame Test")
     public void switchFrameTest(){
         browserHelper.open(ConfigReader.getValue("baseURL") + Endpoints.FRAMES.getEndpoint());
         iframeHelper.switchToFrame("frame1");

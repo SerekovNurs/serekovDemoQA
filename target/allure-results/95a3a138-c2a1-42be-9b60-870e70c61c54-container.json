@@ -1,0 +1,1 @@
+{"uuid":"95a3a138-c2a1-42be-9b60-870e70c61c54","name":"ns.elements.TextBox.setUp","children":["dc25f362-f217-4bd4-901b-30f8fc2b2868"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1718739795014,"stop":1718739819413}],"afters":[],"start":1718739795013,"stop":1718739819415}

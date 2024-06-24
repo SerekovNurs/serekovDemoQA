@@ -29,6 +29,7 @@ public class DriverManager {
                 driver = null;
             }
         }catch (Exception e){
+            e.printStackTrace();
             System.err.println("Error while closing driver");
         }
     }
