@@ -1,4 +1,5 @@
-import io.qameta.allure.Owner;
+import com.sun.jna.Structure;
+import io.qameta.allure.*;
 import io.qameta.allure.testng.Tag;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -7,6 +8,9 @@ public class CheckBoxPageTest extends BaseTest {
     @Test(groups = {"Smoke","7654"},description = "Check Box Page Test")
     @Owner("NS")
     @Tag("Smoke")
+    @Severity(SeverityLevel.MINOR)
+    @Story("GCPINT-8877")
+    @Epic("Elements")
     public void CheckBoxTest() {
         driver.get("https://demoqa.com/checkbox");
         demoQAPages.getCheckBoxPage().fillUpCheckBoxForm();
